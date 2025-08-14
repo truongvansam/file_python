@@ -36,7 +36,7 @@ fi
 
 echo "[*] Thu thập CVE..."
 if [[ -n "$TARGET" ]]; then
-  echo "[*] Chạy nmap --script vuln trên $TARGET (có thể mất thời gian)..."
+  echo "[*] Chạy nmap --script vulners trên $TARGET (có thể mất thời gian)..."
   nmap -sV --script vuln "$TARGET" -oN "$NMAP_OUT"
   SRC="$NMAP_OUT"
 else
