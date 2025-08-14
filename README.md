@@ -1,2 +1,3 @@
 # file_python
-scan_vuln
+chmod +x check_cve_from_scan.sh
+./check_cve_from_scan.sh 192.168.1.10
